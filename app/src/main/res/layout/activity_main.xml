@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/buttonTop"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorWhite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/button_toast" />
+
+    <TextView
+        android:id="@+id/show_count"
+        android:layout_toRightOf="@+id/buttonTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorYellow"
+        android:textSize="180sp"
+        android:textColor="@color/colorPrimary"
+        android:text="0"/>
+
+    <Button
+        android:id="@+id/buttonCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonTop"
+        android:background="@color/colorPrimary"
+        android:text="@string/button_count"
+        android:textSize="20sp"
+        android:textColor="@color/colorWhite" />
+
+
+</RelativeLayout>
